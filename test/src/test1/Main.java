@@ -15,6 +15,7 @@ public class Main {
 		while (set.next()) {
 			System.out.println(set.getInt(1));
 			System.out.println(set.getString(2));
+			System.out.println("hello");
 		}
 		connection.close();
 	}
